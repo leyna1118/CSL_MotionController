@@ -7,11 +7,13 @@ using UnityEngine;
 public class WirelessMotionController : MonoBehaviour
 {
 
-    const string hostIP = "192.168.43.121";
+    const string hostIP = "192.168.128.1";
     const int port = 80;
 
     private SocketClient socketClient;
 
+    public bool isTrigger;
+    public Quaternion quaternion;
 
     private void Awake() {
         socketClient = new SocketClient(hostIP, port);
@@ -26,7 +28,8 @@ public class WirelessMotionController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        isTrigger = socketClient.isTrigger;
+        quaternion = new Quaternion(socketClient.x, socketClient.y, socketClient.z, socketClient.w);
     }
 
     void OnDestroy () {

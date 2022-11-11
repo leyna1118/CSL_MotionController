@@ -345,9 +345,9 @@
 "Assets/Packages/Nokobot/ModernGuns_Handgun/Demo Assets/SimpleShoot.cs"
 "Assets/Packages/amusedART/SlimeRabbit/Sc_AniTest.cs"
 "Assets/PlayerController.cs"
+"Assets/PlayerControllerOld.cs"
 "Assets/Scripts/SocketClient.cs"
 "Assets/Scripts/WirelessMotionController.cs"
-"Assets/WirelessMotionController.cs"
 -langversion:9.0
 
 /deterministic

@@ -40,10 +40,10 @@
      <Compile Include="Assets/Scripts/SocketClient.cs" />
      <Compile Include="Assets/Enemy.cs" />
      <Compile Include="Assets/Packages/Nokobot/ModernGuns_Handgun/Demo Assets/SimpleShoot.cs" />
+     <Compile Include="Assets/PlayerControllerOld.cs" />
      <Compile Include="Assets/PlayerController.cs" />
      <Compile Include="Assets/EnemyController.cs" />
      <Compile Include="Assets/Scripts/WirelessMotionController.cs" />
-     <Compile Include="Assets/WirelessMotionController.cs" />
      <Compile Include="Assets/Bullet.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/home/leyna/Unity/Hub/Editor/2021.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
